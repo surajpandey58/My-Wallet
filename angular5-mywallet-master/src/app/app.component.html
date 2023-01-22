@@ -1,0 +1,23 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-grid-list class="header" cols="1" rowHeight="50px">
+    <mat-toolbar>
+      <span><figure routerLink="/home" ><img src="assets/logo.png" class="logo" alt="Logo" title="Logo" /></figure></span>
+      <span class="spacer"></span>
+      <span>{{title}}</span>
+    </mat-toolbar>
+  </mat-grid-list>
+<!-- .main_container -->
+<section class="main_container">
+    <div class="container">
+      <mat-divider></mat-divider> 
+      <div class="button-row">
+        <a routerLink="/add" routerLinkActive="active" mat-raised-button><mat-icon mat-list-icon>add</mat-icon> Add</a>
+        <a routerLink="/debit-card" mat-raised-button><mat-icon mat-list-icon>account_balance_wallet</mat-icon> Debit</a>
+        <a routerLink="/credit-card" mat-raised-button><mat-icon mat-list-icon>credit_card</mat-icon> Credit</a>
+      </div>
+      <router-outlet></router-outlet>
+  </div>
+</section>
+
+
+

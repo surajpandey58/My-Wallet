@@ -1,0 +1,15 @@
+<mat-card class="mT10" >
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <mat-form-field  class="wper100">
+      <input matInput formControlName="date" [(ngModel)]="cDate" placeholder="Choose a date" >
+    </mat-form-field>
+    <mat-form-field class="wper100">
+      <textarea matInput formControlName="description" placeholder="What's this for?" matTextareaAutosize matAutosizeMinRows="2"
+      matAutosizeMaxRows="5"></textarea>
+    </mat-form-field> 
+    <mat-form-field class="wper100">
+        <h2><span matPrefix>₹&nbsp;</span><input matInput formControlName="amount" placeholder="" type="number"></h2>
+    </mat-form-field>
+    <button mat-raised-button type="submit" [disabled]="!form.valid">Submit</button>
+  </form>
+</mat-card>

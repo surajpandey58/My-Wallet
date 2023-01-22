@@ -1,0 +1,12 @@
+/* Application-wide Styles */
+.tabs li                        {float:left;}
+.tabs li a                      {display: block;padding:10px 15px;color:#fff;background-color:  rgb(158, 158, 158);}
+.tabs li a.active               {background-color: rgb(133, 73, 161);}
+
+.mat-grid-tile h1               {font-size:2em;color:#fff;padding:16px 0px;}
+.spacer                         {flex: 1 1 auto;}
+.mat-toolbar                    {background:url('../assets/bg1.jpg') no-repeat center center; background-size:cover;color:#fff;}
+.header						  	{width:100%;position:fixed;z-index:1070; text-align: center;}
+.header	.logo					{width:48px;height:48px; margin-top:4px; cursor: pointer;}
+.main_container					{background: rgba(21,36,73,0.7);padding-top:65px;}
+

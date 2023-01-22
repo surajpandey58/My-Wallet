@@ -1,0 +1,4 @@
+.debit-c                    {background-color: azure; align-content:flex-start;}
+.credit-c                   {background-color: antiquewhite;}
+.mat-card-image             {width:100%;height:200px; margin:auto; display:block;cursor: pointer;}
+.spacer                     {flex: 1 1 auto;}
